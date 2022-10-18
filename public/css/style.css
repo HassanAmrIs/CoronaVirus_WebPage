@@ -1,0 +1,541 @@
+:root{
+    --background1: rgb(239, 243, 247);
+    --footerbackground: rgba(2, 2, 75, 0.921);
+    --gray: rgb(174, 174, 174);
+    --facebook: rgb(4, 4, 153);
+    --lightblue: rgb(67, 67, 255);
+    --insta: rgb(198, 0, 89);
+}
+.navbar{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar a.logo {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-right: 60px;
+}
+nav div.item{
+    width: 75%;
+}
+.navbar .logo-text{
+    font-size: 22px;
+    margin-left: 0;
+    padding-right: 60px;
+    text-transform: uppercase;
+    color: #091c4e !important;
+}
+.navbar .nav-link{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.navbar .nav-link:active{
+    color: var(--lightblue);
+}
+
+
+.navbar a {
+    font-weight: bold;
+}
+.navbar button a{
+    color: white !important; 
+    padding: 4px 20px;
+}
+span{
+    color: rgb(58, 58, 58) !important;
+}
+button{
+    border-radius: 20px;
+    border: none;
+    padding: 4px 20px;
+    background-color: rgb(40, 123, 246);
+    color: white;
+}
+
+
+/* ============================================= */
+/* =============== header ====================== */
+/* ============================================= */
+
+
+header{
+    margin-top: 0px;
+    background-image: url("../imgs/shape-a.png");
+    background-size: cover;
+    background-color: var(--background1);
+    min-height: 100vh;
+}
+header div.padding{
+    padding-top: 20vh;
+}
+header div img{
+    /* width: 200px;
+    height: 200px; */
+    height: 60vh;
+}
+header div.box{
+    display: flex;
+    align-items: center;
+}
+header h1{
+    font-size: 90px;
+}
+/* header div p{
+    font-size: 16px;
+} */
+header div.line_height{
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 5px;
+    line-height: 20px;
+    color: red;
+
+}
+header div a{
+    text-decoration: none;
+}
+header div #num{
+    line-height: 8px;
+}
+header div .desc{
+    font-size: 16px;
+    color: rgb(188, 188, 188);
+}
+header div .num{
+    font-size: 20px;
+}
+
+/* ============================================= */
+/* =============== Section1 ==================== */
+/* ============================================= */
+
+.head{
+    color: var(--lightblue);
+    font-size: 16px;
+}
+.topic{
+    color: var(--footerbackground);
+    font-weight: bold;
+    font-size: 30px;
+}
+section.section1{
+   
+    padding-top: 100px;
+}
+section.section1 p{
+    text-align: justify;
+    color: var(--footerbackground);
+}
+section.section1 span#embededPara{
+    color: black !important;
+    font-weight: bold;
+}
+section.section1 table{
+    box-shadow: 2px 2px 5px 5px #cfcece78;
+}
+section.section1 tr{
+    border: 2px solid rgb(202, 201, 201);
+}
+section.section1 td{
+    padding: 8px 18px;
+}
+section.section1 td p{
+    font-size: 20px;
+    margin: 0px 5px;
+    font-weight: bold;
+}
+section.section1 td a{
+    text-decoration: none;
+    color: var(--lightblue);
+    font-weight:500;
+}
+
+/* ============================================ */
+/* =============== section2==================== */
+/* ============================================ */
+
+section.section2{
+    padding-top: 60px;
+    background-color: var(--background1);
+}
+section.section2 div.box{
+    width: 250px;
+    box-shadow: 2px 2px 5px 5px rgba(128, 128, 128, 0.331);
+    background-color: white;
+}
+section.section2 div.box p{
+    padding: 0px 20px;
+}
+section.section2 div.box h4{
+    padding: 0px 20px;
+}
+section.section2 div img{
+    max-width: 300px;
+    height: 150px;
+    border-bottom: 4px solid var(--lightblue);
+}
+section.section2 div.box_emb {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 350px;
+}
+
+/* ============================================= */
+/* ============== section3 ===================== */
+/* ============================================= */
+section.section3{
+    background-color: rgb(253, 249, 249);
+}
+section.section3 div img{
+    border-radius: 50%;
+    height: 14vh;
+    margin-bottom: -30px;
+    border: none;
+    box-shadow: 2px 2px 5px 5px rgb(222, 241, 255);
+}
+section.section3 div.image{
+    margin-left: 58%;
+    
+}
+section.section3 div.box{
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 8px 4px rgb(221, 219, 219);
+}
+section.section3 div.boxnote{
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+section.section3 div i.icon{
+    font-size: 40px;
+    padding-top: 5px;
+    padding-right: 5px;
+    color: var(--lightblue);
+}
+section.section3 div a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ============================================= */
+/* =============== section4 ==================== */
+/* ============================================= */
+
+section.section4{
+    padding-top: 80px;
+    background-color: var(--background1);
+}
+section.section4 div img{
+    height: 16vh;
+    border-radius: 50%;
+    align-items: center;
+    padding-bottom: 10px;
+}
+section.section4 div.wash{
+    width: 70%;
+    padding-top: 60px;
+    text-align: center;
+}
+section.section4 div button a{
+    color: white;
+    text-decoration: none;
+}
+section.section4 div a{
+    text-decoration: none;
+    color: var(--lightblue);
+}
+
+/* ============================================= */
+/* =============== section5 ==================== */
+/* ============================================= */
+
+section.section5{
+    background-color: var(--background1);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+section.section5 div.box{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 4px 2px rgba(73, 73, 73, 0.095);
+}
+
+section.section5 div img{
+    height: 60vh;
+}
+
+/* ============================================= */
+/* =============== section6 ==================== */
+/* ============================================= */
+
+section.section6{
+   background-color: var(--background1);
+   padding-bottom: 30px;
+}
+section.section6 div.p_box{
+    width: 80%;
+   
+}
+section.section6 div.box{
+    width: 100px;
+    padding-top: 30px;
+    margin-right: 20px;
+    
+}
+section.section6 div img{
+    height: 12vh;
+    border-radius: 50%;
+    padding-left: 6px;
+    display: block;
+}
+section.section6 div b{
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+/* ============================================= */
+/* =============== section7 ==================== */
+/* ============================================= */
+
+section.section7 {
+    background-image: url("../imgs/shape-a.png");
+    background-size: cover;
+    background-color: rgb(65, 65, 186);
+    color: white;
+    height: auto;
+}
+section.section7 div h4{
+    font-size: 16px;
+    color: rgb(151, 167, 255);
+}
+section.section7 div.box{
+    background-color: rgb(38, 38, 139);
+    padding: 20px;
+}
+
+/* ============================================= */
+/* =============== section8 ==================== */
+/* ============================================= */
+
+section.section8{
+    padding-top: 100px;
+}
+section.section8 div.faq{
+    display: flex;
+    width: 75%;
+}
+section.section8 button{
+    width: 250px ;
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid var(--lightblue) !important;
+    margin-bottom: 10px !important;
+}
+section.section8 div.fb button:active{
+    color: var(--lightblue) !important;
+    background-color: white !important;
+    border: 4px solid var(--lightblue) !important;
+}
+section.section8 div table{
+    min-width: 200px;
+}
+section.section8 div table p{
+    padding: 20px;
+}
+section.section8 div table tr{
+    border: 1px solid rgb(190, 188, 188);
+    background-color: var(--background1);
+}
+section.section8 div button.show{
+    border: none !important;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-right: 30px;
+
+}
+
+
+
+/* ============================================= */
+/* =============== section9 ==================== */
+/* ============================================= */
+section.section9{
+    background-color: var(--background1);
+    padding-top: 100px;
+}
+section.section9 div.emb_box {
+    display: flex;
+    align-items: center;
+}
+section.section9 div.emb_box p{
+    padding-top: 6px;
+    padding-right: 20px;
+}
+section.section9 div.box2 img{
+    width: 40vw;
+ }
+ section.section9 div.box2{
+     margin-right: 20px;
+ }
+section.section9 div.box img{
+    height: 12vh;
+    border: 4px solid red;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+section.section9 div.box3{
+    margin-right: -20px;
+}
+section.section9 div.box3 img{
+    height: 12vh;
+    border: 4px solid rgb(52, 195, 1);
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/* ============================================= */
+/* =============== section10 =================== */
+/* ============================================= */
+section.section10{
+    background-color: var(--background1);
+    padding-top: 80px;
+}
+section.section10 div.mainbox{
+    width: 70%;
+}
+section.section10 div.box{
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 16px;
+    min-width: 20vw;
+}
+section.section10 div img{
+    width: 200px;
+    border-radius: 8px;
+}
+
+/* ============================================= */
+/* =============== Scroll up =================== */
+/* ============================================= */
+
+div.scrollup{
+    position: fixed;
+    bottom:  20px;
+    right: 20px;
+    padding: 10px;
+    background-color: var(--lightblue);
+    border-radius: 50%;
+
+}
+.scrollup i{
+    font-size: 20px;
+    padding: 8px;
+    background-color: white;
+    color: var(--lightblue);
+    border-radius: 50%;
+}
+
+
+/* ============================================= */
+/* =============== Footer ====================== */
+/* ============================================= */
+
+
+footer{
+    background-image: url("../imgs/shape-a.png");
+    background-size: cover;
+    min-height: 100vh;
+    background-color: var(--footerbackground);
+    color: white;
+}
+footer div a.logo2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+footer div.line_height{
+    line-height: 22px;
+    margin-top: 25px;
+}
+footer a{
+    text-decoration: none;
+    color: var(--gray);
+}
+footer button.find{
+    border-radius: 0;
+    padding: 10px 40px ;
+}
+footer div button.facebook{
+    background-color: var(--facebook);
+}
+footer div button.twitter{
+    background-color: var(--lightblue);
+}
+footer div button.insta{
+    background-color: var(--insta);
+}
+footer div.copyrights{
+    font-size: 12px;
+    color: var(--gray);
+}
+
+@media only screen and (max-width: 912px) {
+    nav div.item{
+        width: 90%;
+    }
+    header div img{
+        height: 30vh;
+    }
+    header div.box{
+        display: block;
+    }
+    header h1{
+        font-size: 70px;
+        
+    }
+    /* header div p{
+        font-size: 16px;
+    } */
+    header div.line_height{
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-left: 5px;
+        line-height: 8px;
+        color: red;
+  }
+
+  section.section5 div img{
+    height: 40vh;
+}
+section.section9 div.box2 img{
+    width: 80vw;
+ }
+
+ section.section6 div img{
+    height: 10vh;
+    border-radius: 50%;
+    padding-left: 6px;
+    margin-right: 10px;
+    display: block;
+}
+section.section8 div.faq{
+    display: inline-block;
+    padding-left: 22px;
+    width: 80%;
+    
+}
+
+}
